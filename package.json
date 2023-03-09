@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "node": "nodemon main.js"
   },
   "devDependencies": {
+    "nodemon": "^2.0.21",
     "vite": "^4.1.0"
   }
 }
